@@ -11,9 +11,9 @@
 			<header id="header">
 				<div class="left">
 					<a href="#" class="image avatar"><img src="images/Blue_team.jpg" alt="" /></a>
-					<h1><strong>Deshunn Jackson </br> Entry-Level</br> Cybersecurity Professional<br /> </strong>
-					 • Blue-Team Analyst<br /> • Incident Responder<br /> • Malware Analyst<br />
-					<h2><strong>Tools</strong></h2><p> • Splunk • ELK<br /> • Wireshark • Sysmon <br /> • Windows EV • Windows Power Shell <br /> • Linux/Unix </p>
+					<h1><strong>Deshunn Jackson </br> SOC Analyst & Threat Hunter <br> </strong>
+					 • Building & Defending Labs <br /> • SIEM Alert Triage <br /> • Malware Analyst<br />
+					<h2><strong>Tools </strong></h2><p> • Splunk <br /> • Wireshark <br />• Sysmon <br /> • Windows EV|PwSh <br /> • Linux CLI Forensics <br /> • Volatility <br /> • Oledump.py  </p>
 				</div>
 			</header>
 
@@ -25,15 +25,47 @@
 						<header class="major">
 							<h2>About Me</h2>
 						</header>
-						<p>CompTIA CySA+ Certified Security Analyst with a focus on SIEM (Splunk/ELK), Network Forensics (Wireshark, Volatility, Linux Threat Detection), Endpoint Detection (Sysmon, Windows EV, Powershell, Brim), and Frameworks (MITRE ATT&CK,  NIST 800-61, Cyber Kill Chain). Currently specializing in AWS Cloud Defense and Advanced Log Correlation.</p>
+						<p>I am a driven candidate as a <strong>SOC Analyst</strong> with a profound commitment to protecting digital environments and combating cyber threats. Currently pursuing my BBA in Management Information Systems at the <strong>University of Houston</strong> (graduating Spring 2027), I bring a robust foundation in cybersecurity, validated by certifications including <strong>CompTIA CySA+, PenTest+, and CEH</strong>.</p>
+<p>My passion for hands-on defense is demonstrated through my self-built, isolated <strong>SOC Home Lab</strong>. This multi-node environment (featuring <strong>pfSense</strong>, a <strong>FLARE-VM</strong> with <strong>Splunk Enterprise</strong>, <strong>Sysmon</strong>, and <strong>FakeNet-NG</strong>, alongside an <strong>Ubuntu Desktop</strong> for <strong>Volatility 3, Wireshark, DNS Intercepter, Ncat, and Oledump</strong>) is where I actively refine my skills in:</p>
+<ul>
+    <li><strong>SIEM Monitoring & Alert Triage</strong> (Splunk SPL, Dashboards)</li>
+    <li><strong>Threat Hunting & Malware Analysis</strong> (Static, Dynamic, Memory Forensics, MITRE ATT&CK)</li>
+    <li><strong>Detection Engineering & Incident Reporting</strong> (Root Cause Analysis)</li>
+    <li><strong>Linux CLI</strong> for intermidate forensics</li>
+</ul>
+<p>I am currently engaged in an intensive <strong>90-Day SOC Analyst Sprint</strong>, mastering Splunk SPL and performing full-lifecycle malware investigations. My goal is to secure a <strong>Junior Analyst </strong> | <strong> SOC Analyst Tier 1 </strong> position, leveraging practical experience and a problem-solving mindset.</p>
+						<p><p\>
 						<ul class="actions">
-							<li><a href="https://1drv.ms/b/c/1e236fa8779e1d5f/IQBbsDdsNbREQYx4ECZT-vpLAeKEHjHqw2NI6c8onpHn-2c?e=gdCemP" class="button">Resume</a></li>
+							<li><a href="https://1drv.ms/w/c/83f70a624956884d/IQDEuLsP99zdR4GWcC5yxu73AerpgIg1dO5Imp-to5R4n0g?e=KycnZ6" class="button">Resume</a></li>
 						</ul>
 					</section>
+<h3>Technical Projects & Labs</h3>
+<h4>SOC Home Lab: Multi-Node Malware Analysis & Detection Platform</h4>
+<p><strong><a href="https://github.com/DJackson-BlueTeam/90-Day-Junior-Analyst-Sprint" target="_blank">GitHub: 90-Day-Junior-Analyst-Sprint</a></strong></p>
 
+<ul>
+    <li><strong>Architected and deployed</strong> an isolated virtual SOC environment (pfSense firewall, Windows FLARE-VM, Ubuntu Desktop/Forensics workstation).</li>
+	<p><strong><a href="https://github.com/DJackson-BlueTeam/SOCHomeLAB" target="_blank">SOC HOME LAB BUILD</a></strong></p>
+    <li><strong>Configured Splunk Enterprise</strong> on FLARE-VM for <strong>real-time ingestion and analysis</strong> of Sysmon host telemetry and FakeNet-NG network interception logs.</li>
+    <li><strong>Performed Static/Dynamic malware analysis</strong> on various samples (e.g., SillyPuTTY, Emotet), identifying HBIs (process injection, persistence via registry/scheduled tasks) and NBIs (C2 callbacks on non-standard ports).</li>
+    <li><strong>Developed custom Splunk SPL queries and alerts</strong> to detect specific malware behaviors, mapping findings to the <strong>MITRE ATT&CK Framework</strong>.</li>
+	<p><strong><a href="https://github.com/DJackson-BlueTeam/90-Day-Junior-Analyst-Sprint/tree/main/Malware-Analysis-Reports" target="_blank">MALWARE ANALYSIS REPORTS</a></strong></p>
+    <li><strong>Conducted memory forensics</strong> using Volatility 3 on infected VMs to uncover hidden processes, network connections, and in-memory strings.</li>
+	<p><strong><a href="https://github.com/DJackson-BlueTeam/90-Day-Junior-Analyst-Sprint/tree/main/Volatility-Forensics/1.%20Stage0Vol" target="_blank">VOLATILITY FORENSICS</a></strong></p>
+    <li><strong>Documented comprehensive Incident Reports</strong> detailing attack chains, and IOCs</li>
+	<p><strong><a href="https://github.com/DJackson-BlueTeam/90-Day-Junior-Analyst-Sprint/tree/main/Incident-Reports" target="_blank">INCIDENT REPORTS</a></strong></p>
+</ul>
+
+<h4>Blue Team Labs Online (BTLO) Investigations</h4>
+<p><strong><a href="https://github.com/DJackson-BlueTeam/BlueTeamLab.Investigations-Write-Ups" target="_blank">GitHub: BTLO Write-Ups</a></strong></p>
+<ul>
+    <li><strong>Executed multiple "Easy" and "Medium" difficulty SOC investigations</strong>, simulating real-world alert triage scenarios.</li>
+    <li><strong>Utilized industry-standard tools</strong> (Wireshark, Splunk, Event Viewer, Linux CLI) to analyze provided artifacts (PCAPs, web logs, event logs).</li>
+    <li><strong>Practiced incident response procedures</strong>, including log correlation, threat actor identification, and root cause analysis.</li>
+</ul>
 				
 					<section id="two">
-						<h2>Write-Ups</h2>
+						<h2>SOC Path Write-Ups</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
     							<a class="image fit thumb" target="_blank" rel="noopener noreferrer">
@@ -59,7 +91,7 @@
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a class="image fit thumb"><img src="images/Linux.png" alt="" /></a>
-								<h3>Linux/Unix: Monitoring, Investigating, and Responding to Security Threats </h3>
+								<h3>Linux/Unix: Monitoring, Investigating, and Responding to security threats </h3>
 								<p><a href="https://github.com/DJackson-BlueTeam/Portfolio/tree/main/SOC/Linux/Linux%20Security%20Monitoring" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
@@ -115,7 +147,8 @@
 				
 					<section id="four">
 						<h2>Overview</h2>
-						<p>This platform and my GitHub repository serve as a live record of my professional growth and technical contributions. I am committed to continuous learning and will regularly update these resources with new certifications and detailed technical write-ups as I advance my expertise in blue-team operations. I am actively seeking an entry-level SOC/Cybersecurity Analyst position where I can apply my proficiency in analysis, threat hunting and incident response to protect organizational assets while continuing to evolve as a cybersecurity professional.</p>
+						<p>This platform serves as a live record of my professional growth and technical contributions within cybersecurity. I am committed to continuous learning and regularly update these resources with new certifications and detailed technical write-ups, particularly through my active 90-Day SOC Analyst Sprint.
+						I am actively seeking a Junior SOC Analyst position where I can apply my proficiency in SIEM alert triage, threat hunting (leveraging MITRE ATT&CK), and malware analysis (Static, Dynamic, and Memory Forensics) to protect organizational assets. My hands-on experience developing and defending my SOC Home Lab demonstrates my dedication to evolving as a cybersecurity professional.</p>
 						<div class="row">
 							<div class="col-8 col-12-small">
 								<form method="post" action="#">
@@ -124,6 +157,10 @@
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+										346-814-1372
+									</li>
 									<li>
 										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
 										<a href="#">de.jackson7@outlook.com
@@ -156,10 +193,4 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
-
 </html>
-
-
-
-
-
